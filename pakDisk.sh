@@ -73,4 +73,4 @@ decb copy -0 -a flash.bas $2,FLASH.BAS
 
 echo "Done.  Assuming no errors, follow these steps:"
 echo -e "\n 1. Copy $2 to your CoCo SDC's SD card.\n 2. Power up your CoCo with the card in the CoCoSDC."
-echo -e " 3. Issue the command: DRIVE 0,\"$2\"\n4. Issue the command: RUN \"FLASH.BAS\"\n 5. Follow the prompts."
+echo -e " 3. Issue the command: DRIVE 0,\"$2\"\n 4. Issue the command: RUN \"FLASH.BAS\"\n 5. Follow the prompts."
